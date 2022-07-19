@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+  
+.contenedor{
+    text-align: center;
+    position: relative;
+}
+
+.contenedor > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contenedor .menu{
+    display: none;
+    border-radius: 3px;
+    /*overflow: hidden;*/
+    background-color: rgb(80, 83, 87);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    position: fixed;
+    min-width: 233px;
+    color: aliceblue;
+    z-index: 6;
+    margin-top: 100px;
+}
+
+.contenedor:hover .menu{
+    display: block;
+    margin-top: -125px;
+}
+
+.contenedor .menu ul{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    text-align: center;
+}
+
+.contenedor .menu li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+.contenedor .menu li a:hover{
+    background-color: rgb(236, 125, 61);
+    color: #000;
+    font-weight: bold;
+}
+
+.bloque_Inicio{
+    border-radius: 1px;
+    background-color: rgb(62, 126, 209);
+    position: absolute;
+    z-index: 35;
+    min-width: 170px;
+    padding: 14px 34px;
+    margin-top: -170px;
+    margin-right: 90px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.bloque_Inicio a{
+    text-decoration: none;
+    color: #000;
+}
+
+b{
+    color: #fff;
+}

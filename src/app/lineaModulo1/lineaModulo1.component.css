@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+
+label{
+	color: #fff;
+}
+h1{
+	margin-top: 12px;
+	margin-left: 566px;
+	font-size: 2rem;
+}
+
+.cartas{
+	padding: 10px 100px;
+	text-align: center;
+	bottom: 12px;
+	
+}
+.carta{
+	display:inline-block;
+	margin-top: 10px;
+	margin-right: 25px;
+	width: 260px;
+	height: 300px;
+	border-radius: 30px;
+	background-size: cover;
+	box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	transition: all .25s ease;
+	box-shadow: 3px 5px 5px rgba(3, 32, 51, 8);
+}
+
+.carta:hover{
+	transform: scale(.9);
+}
+
+.carta:hover ::after{
+	height: 188px;
+}
+
+.carta:hover .cont-text{
+	margin-bottom: 0px;
+	opacity: 1;
+	font-size: .75rem;
+	background-color: rgb(255, 255, 255, 0.9);
+	color: #000;
+}
+.carta:hover .cont-text p{
+	margin-bottom: 0px;
+	opacity: 1;
+	font-size: .75rem;
+}
+
+.cont-text h2{
+	font-size: 1.2rem;
+	justify-content: center;
+}
+
+.carta:hover img{
+	transform: scale(1.25);
+}
+
+.carta::after{
+	width: 100%;
+	content: "";
+	left: 0;
+	bottom: 0;
+	height: 150px;
+	position: absolute;
+	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	z-index: 20;
+	transition: all .25s ease;
+
+}
+
+.carta img{
+	height: 100%;
+	z-index: 10;
+	transition: all .25s ease;
+}
+
+.carta .cont-text{
+	z-index: 30;
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.carta .cont-text p{
+	font-size: .8rem;
+	opacity: 0;
+	margin-bottom: -170px;
+	transition: all .25s ease;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+
+.carta .cont-text p button{
+	padding: 7px 17px;
+	border-radius: 12px;
+	background: black;
+	border: 2px solid #fff;
+	color: rgb(255, 255, 255);
+	margin-left: auto;
+	cursor: pointer;
+	transition: all .25s ease;
+	font-size: .7rem;
+	outline: none;
+}
+
+.carta .cont-text p button:hover{
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	border-radius: 10px;
+	border: rgb(114, 114, 114) solid;
+}
+
+
+.ventana{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 40;
+	background: rgba(0, 0, 0, .5);
+	transition: all 500ms ease;
+	opacity:0;
+	visibility: hidden;
+}
+
+.ventanaabierta{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 40;
+	background: rgba(0, 0, 0, .5);
+	transition: all 500ms ease;
+	opacity:1;
+	visibility: visible;
+}
+
+.contenedor{
+	width: 960px;
+	height: 500px;
+	top: 55px;
+	left: 200px;
+	background: burlywood;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, .6);
+	transition: all 500ms ease;
+	border-radius: 10px;
+	position: relative;
+}
+
+
+.contenedor label{
+	position: absolute;
+	top: 12px;
+	right: 25px;
+	z-index: 42;
+	cursor: pointer;
+}
+
+.contenedor .hito1{
+	position: absolute;
+	right: 850px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito2{
+	position: absolute;
+	right: 735px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito3{
+	position: absolute;
+	right: 620px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito4{
+	position: absolute;
+	right: 505px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito5{
+	position: absolute;
+	right: 390px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito6{
+	position: absolute;
+	right: 275px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito7{
+	position: absolute;
+	right: 160px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+.contenedor .hito8{
+	position: absolute;
+	right: 54px;
+	top: 223px;
+	background-color: #000;
+	z-index: 50;
+	width: 60px;
+	height: 60px;
+	border-radius: 500px;
+}
+
+hr{
+	position: absolute;
+	z-index: 49;
+	height: 5px;
+	width: 88%;
+	top: 248px;
+	right: 55px;
+	background-color: black;
+}
+
+.contenedor img{
+	width: 65%;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+}
+#fecha{
+	position: absolute;
+	top: 63px;
+	font-size: .7rem;
+	width: 30cm;
+	left: .002rem;
+	color: #fff;
+	font-weight: bold;
+
+	
+}
+
+#texto{
+	position: absolute;
+	background-color: rgb(194, 111, 17);
+	color: #fff;
+	border-radius: 3px;
+	width: 73px;
+	height: 30px;
+	font-size: .7rem;
+	text-align: center;
+	bottom: 90px;
+	right: -9px;
+	z-index: 1;
+	cursor: pointer;
+}
+#texto2{
+	position: absolute;
+	background-color: rgb(35, 167, 17);
+	color: #fff;
+	border-radius: 3px;
+	width: 73px;
+	height: 30px;
+	font-size: .7rem;
+	text-align: center;
+	right: -9px;
+	z-index: 1;
+	bottom: -130px;
+	cursor: pointer;
+}
+
+#texto3{
+	position: absolute;
+	background-color: rgb(35, 167, 17);
+	color: #fff;
+	border-radius: 3px;
+	width: 81px;
+	height: 30px;
+	font-size: .7rem;
+	text-align: center;
+	right: -14px;
+	z-index: 1;
+	bottom: -130px;
+	cursor: pointer;
+}
+
+#fecha2{
+	position: absolute;
+	top: 63px;
+	font-size: .7rem;
+	width: 30cm;
+	left: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#fecha3{
+	position: absolute;
+	top: 63px;
+	font-size: .7rem;
+	width: 30cm;
+	left: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#foto{
+	position: absolute;
+	top: -117px;
+	left: -1.7px;
+	width: 70px;
+	height: 60px;
+	border-radius: 4px;
+	border: #fff solid;
+	cursor: pointer;
+}
+
+#foto2{
+	position: absolute;
+	top: 112px;
+	left: -1.7px;
+	width: 70px;
+	height: 60px;
+	border-radius: 4px;
+	border: #fff solid;
+	cursor: pointer;
+}
+
+#arriba{
+	position: absolute;
+	z-index: -2;
+	width: 1%;
+	height: 36px;
+	top: -42px;
+	right: 28px;
+	background-color: #000;
+	border-left: 2px solid black;
+}
+
+#abajo{
+	position: absolute;
+	z-index: -2;
+	width: 1%;
+	height: 37px;
+	top: 83px;
+	right: 28px;
+	background-color: #000;
+	border-left: 2px solid black;
+}
+
+.titulo{
+	position: absolute;
+	left: -499px;
+	top: 10px;
+	color: #fff;
+}
