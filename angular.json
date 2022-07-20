@@ -28,6 +28,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/app/lineaModulo1/lineaModulo1.component.css",
+              "src/app/diccionario/diccionario.component.css",
+              "src/app/block_Sesions/block_Sesions.component.css",
               "src/styles.css"
             ],
             "scripts": [
