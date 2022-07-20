@@ -135,10 +135,6 @@ h1{
 	left: 0;
 	bottom: 0;
 	right: 0;
-	z-index: 40;
-	background: rgba(0, 0, 0, .5);
-	transition: all 500ms ease;
-	opacity:0;
 	visibility: hidden;
 }
 
@@ -155,16 +151,18 @@ h1{
 	visibility: visible;
 }
 
-.contenedor{
-	width: 960px;
-	height: 500px;
-	top: 55px;
-	left: 200px;
+.contenedorEvaluacion, .contenedor{
 	background: burlywood;
 	box-shadow: 1px 7px 25px rgba(0, 0, 0, .6);
 	transition: all 500ms ease;
 	border-radius: 10px;
 	position: relative;
+}
+.contenedor{
+	width: 960px;
+	height: 500px;
+	top: 55px;
+	left: 200px;
 }
 
 
@@ -405,4 +403,68 @@ hr{
 	left: -499px;
 	top: 10px;
 	color: #fff;
+}
+
+.Evaluacion{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.evaluacionAbierta{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 40;
+	background: rgba(0, 0, 0, .5);
+	transition: all 500ms ease;
+	opacity:1;
+	visibility: visible;
+}
+
+.contenedorEvaluacion{
+	width: 600px;
+	height: 500px;
+	top: 55px;
+	left: 350px;
+}
+
+.contenedorEvaluacion #cierre{
+	position: absolute;
+	top: 12px;
+	right: 25px;
+	z-index: 42;
+	cursor: pointer;
+}
+
+.contenedorEvaluacion #tituloEvalua{
+	margin-top: 12px;
+	margin-left: 18px;
+	color: #fff;
+}
+
+.contenedorEvaluacion p{
+	padding: 14px 12px;
+	margin-left: 10px;
+}
+
+.contenedorEvaluacion #EverittMurray, #FerdinadCohn,
+#LouisPasteur, #FrancoisNicolasAppert{
+	margin-left: 25px;
+}
+
+.contenedorEvaluacion #A1698, #A1674,
+#A1804, #A1874{
+	margin-left: 25px;
+}
+
+.contenedorEvaluacion button{
+	margin-left: 340px;
+	border-radius: 10px;
+	padding: 12px 12px;
 }
