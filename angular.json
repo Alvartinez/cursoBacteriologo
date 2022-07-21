@@ -36,7 +36,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/app/lineaModulo1/lineaModulo1.component.js"
+              "src/assets/javascript/lineaModulo1.js"
             ]
           },
           "configurations": {
