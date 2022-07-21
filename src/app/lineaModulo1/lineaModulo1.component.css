@@ -2,9 +2,10 @@ label{
 	color: #fff;
 }
 h1{
-	margin-top: 12px;
-	margin-left: 566px;
+	margin-top: 26px;
+	margin-left: 404px;
 	font-size: 2rem;
+	text-decoration: underline;
 }
 
 .cartas{
@@ -144,7 +145,7 @@ h1{
 }
 
 .contenedorEvaluacion, .contenedor{
-	background: burlywood;
+	background: rgb(212, 205, 205);
 	box-shadow: 1px 7px 25px rgba(0, 0, 0, .6);
 	transition: all 500ms ease;
 	border-radius: 10px;
@@ -166,92 +167,48 @@ h1{
 	cursor: pointer;
 }
 
-.contenedor .hito1{
+.contenedor .hito1, .contenedor .hito2, .contenedor .hito3,
+.contenedor .hito4, .contenedor .hito5, .contenedor .hito6,
+.contenedor .hito7, .contenedor .hito8{
 	position: absolute;
-	right: 850px;
-	top: 223px;
 	background-color: #000;
 	z-index: 50;
 	width: 60px;
 	height: 60px;
 	border-radius: 500px;
+	top: 230px;
+}
+
+.contenedor .hito1{
+	right: 850px;
 }
 
 .contenedor .hito2{
-	position: absolute;
 	right: 735px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito3{
-	position: absolute;
 	right: 620px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito4{
-	position: absolute;
 	right: 505px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito5{
-	position: absolute;
 	right: 390px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito6{
-	position: absolute;
 	right: 275px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito7{
-	position: absolute;
 	right: 160px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 .contenedor .hito8{
-	position: absolute;
 	right: 54px;
-	top: 223px;
-	background-color: #000;
-	z-index: 50;
-	width: 60px;
-	height: 60px;
-	border-radius: 500px;
 }
 
 hr{
@@ -270,16 +227,26 @@ hr{
 	top: 9px;
 	right: 10px;
 }
-#fecha{
+
+#fecha, #fecha2, #fecha3{
 	position: absolute;
 	top: 63px;
-	font-size: .7rem;
-	width: 30cm;
-	left: .002rem;
-	color: #fff;
+	font-size: .9rem;
+	color: rgb(0, 0, 0);
 	font-weight: bold;
+	width: 30cm;
+}
 
-	
+#fecha{
+	left: -.4rem;
+}
+
+#fecha2{
+	left: .3rem;
+}
+
+#fecha3{
+	left: 14px;
 }
 
 #texto{
@@ -324,26 +291,6 @@ hr{
 	z-index: 1;
 	bottom: -130px;
 	cursor: pointer;
-}
-
-#fecha2{
-	position: absolute;
-	top: 63px;
-	font-size: .7rem;
-	width: 30cm;
-	left: 8px;
-	color: #fff;
-	font-weight: bold;
-}
-
-#fecha3{
-	position: absolute;
-	top: 63px;
-	font-size: .7rem;
-	width: 30cm;
-	left: 16px;
-	color: #fff;
-	font-weight: bold;
 }
 
 #foto{
@@ -392,9 +339,13 @@ hr{
 
 .titulo{
 	position: absolute;
-	left: -499px;
-	top: 10px;
+	left: -405px;
+	top: -30px;
 	color: #fff;
+	padding: 12px 303.5px;
+	background-color: rgb(62, 126, 209);
+	border-radius: 3px;
+	text-decoration: none;
 }
 
 .Evaluacion{

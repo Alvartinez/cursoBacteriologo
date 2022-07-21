@@ -3,27 +3,24 @@
     position: relative;
 }
 
-.contenedor > a {
+.contenedor  a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .contenedor .menu{
     display: none;
-    border-radius: 3px;
-    /*overflow: hidden;*/
     background-color: rgb(80, 83, 87);
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     position: fixed;
     min-width: 233px;
     color: aliceblue;
     z-index: 6;
-    margin-top: 100px;
 }
 
 .contenedor:hover .menu{
     display: block;
-    margin-top: -125px;
+    margin-top: -98px;
 }
 
 .contenedor .menu ul{
@@ -49,14 +46,12 @@
 }
 
 .bloque_Inicio{
-    border-radius: 1px;
     background-color: rgb(62, 126, 209);
     position: absolute;
     z-index: 35;
     min-width: 170px;
-    padding: 14px 34px;
-    margin-top: -170px;
-    margin-right: 90px;
+    padding: 14px 47px;
+    margin-top: -148.4px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
