@@ -20,8 +20,7 @@
 
 .contenedor:hover .menu{
     display: block;
-    margin-top: -134px;
-    margin-left: -204px;
+    margin-top: -104px;
 }
 
 .contenedor .menu ul{
@@ -51,10 +50,9 @@
     position: absolute;
     z-index: 35;
     min-width: 170px;
-    padding: 14px 47px;
-    margin-top: -186px;
+    padding: 14px 48px;
+    margin-top: -156px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
-    margin-left: -204px;
 }
 
 .bloque_Inicio a{
