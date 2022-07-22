@@ -1,14 +1,14 @@
 .contenedor-head{
     background-color: rgb(62, 126, 209);
-    color: aliceblue;
     display: flex;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    height: 62px;
 }
 
 .logo{
     background-color: orangered;
     border-radius: 25px;
-    margin-top: 3px;
+    margin-top: 7px;
     margin-right: 8px;
     margin-left: 12px;
     border: rgb(179, 179, 179) 2px solid;
@@ -20,6 +20,7 @@
     text-align: center;
     max-width: 60%;
     margin-left: 275px;
+    color: black;
 }
 
 hr{
@@ -27,12 +28,35 @@ hr{
     margin-left: 400px;
 }
 
-h2{
+#introduccion{
+    margin-top: 32px;
     text-align: center;
     font-size: 30px;
+    z-index: 2px;
 }
 
 h1{
     font-size: 30px;
     margin-top: 12px;
+    font-weight: bolder;
+    margin-left: 2px;
+    color: beige;
+}
+
+.Examen{
+    margin-left: 500px;
+    margin-top: 7px;
+    padding: 10px 30px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 2px cornflowerblue;
+}
+
+.Examen:hover{
+    background-color: orangered;
+    color: aliceblue;
+    
 }
