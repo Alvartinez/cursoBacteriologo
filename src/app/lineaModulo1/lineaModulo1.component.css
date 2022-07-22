@@ -249,33 +249,27 @@ hr{
 	left: 14px;
 }
 
-#texto{
+#texto, #texto2{
 	position: absolute;
-	background-color: rgb(194, 111, 17);
 	color: #fff;
 	border-radius: 3px;
-	width: 73px;
-	height: 30px;
-	font-size: .7rem;
-	text-align: center;
-	bottom: 90px;
-	right: -9px;
+	right: -33px;
 	z-index: 1;
 	cursor: pointer;
+	font-size: .9rem;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+}
+
+#texto{
+	background-color: rgb(194, 111, 17);
+	bottom: 90px;
+	
 }
 #texto2{
-	position: absolute;
 	background-color: rgb(35, 167, 17);
-	color: #fff;
-	border-radius: 3px;
-	width: 73px;
-	height: 30px;
-	font-size: .7rem;
-	text-align: center;
-	right: -9px;
-	z-index: 1;
 	bottom: -130px;
-	cursor: pointer;
 }
 
 #texto3{
@@ -295,10 +289,10 @@ hr{
 
 #foto{
 	position: absolute;
-	top: -117px;
-	left: -1.7px;
-	width: 70px;
-	height: 60px;
+	top: -150px;
+	left: -17px;
+	width: 100px;
+	height: 100px;
 	border-radius: 4px;
 	border: #fff solid;
 	cursor: pointer;
@@ -307,9 +301,9 @@ hr{
 #foto2{
 	position: absolute;
 	top: 112px;
-	left: -1.7px;
-	width: 70px;
-	height: 60px;
+	left: -22px;
+	width: 100px;
+	height: 100px;
 	border-radius: 4px;
 	border: #fff solid;
 	cursor: pointer;
@@ -388,7 +382,7 @@ hr{
 .contenedorEvaluacion #tituloEvalua{
 	margin-top: 12px;
 	margin-left: 18px;
-	color: #fff;
+	font-weight: bold;
 }
 
 .contenedorEvaluacion p{
