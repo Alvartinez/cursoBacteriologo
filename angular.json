@@ -32,7 +32,8 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/assets/javascript/lineaModulo1.js"
+              "src/assets/javascript/lineaModulo1.js",
+              "src/assets/javascript/block_Sesions.js"
             ]
           },
           "configurations": {
