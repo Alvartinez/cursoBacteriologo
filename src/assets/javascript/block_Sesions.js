@@ -1,9 +1,7 @@
 
-document.querySelector(".contenedor").addEventListener("click", animabarras);
-
-var ln1 = document.querySelector(".line1");
-var ln2 = document.querySelector(".line2");
-var ln3 = document.querySelector(".line3");
+var ln1 = document.getElementById("line1");
+var ln2 = document.getElementById("line2");
+var ln3 = document.getElementById("line1");
 
 function animabarras(){
     ln1.classList.toggle("activeline1");
